@@ -1,0 +1,52 @@
+{
+  "name": "pika-plugin-package.json",
+  "description": "@pika/pack build plugin to modify package.json file",
+  "version": "0.1.0",
+  "author": "Victor Didenko <yumaa.verdin@gmail.com> (https://yumaa.name)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumauri/pika-plugin-package.json"
+  },
+  "bugs": {
+    "url": "https://github.com/yumauri/pika-plugin-package.json/issues"
+  },
+  "homepage": "https://github.com/yumauri/pika-plugin-package.json#readme",
+  "keywords": [
+    "pika",
+    "plugin",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "rm -rf pkg && pika build",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "release": "pika publish",
+    "version": "yarn build"
+  },
+  "devDependencies": {
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-build-node": "^0.7.1",
+    "@pika/plugin-ts-standard-pkg": "^0.7.1",
+    "@pika/types": "^0.7.1",
+    "prettier": "^1.19.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-security": "^1.16.0",
+    "tslint-config-standard-plus": "^2.3.0",
+    "typescript": "^3.7.2"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-ts-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node",
+        {
+          "sourceMap": false
+        }
+      ]
+    ]
+  }
+}

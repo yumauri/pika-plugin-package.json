@@ -1,0 +1,6 @@
+node_modules/
+pkg/
+yarn-error.log
+.DS_Store
+.vscode
+*.log

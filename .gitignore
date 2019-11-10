@@ -1,4 +1,5 @@
 node_modules/
+coverage/
 pkg/
 yarn-error.log
 .DS_Store

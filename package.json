@@ -19,8 +19,9 @@
   ],
   "scripts": {
     "build": "rm -rf pkg && pika build",
+    "test": "jest --config jestconfig.json",
     "format": "prettier --write \"src/**/*.ts\"",
-    "lint": "tslint -p tsconfig.json",
+    "lint": "tsc --noEmit && tslint -p tsconfig.json",
     "release": "pika publish",
     "version": "yarn build"
   },
@@ -29,7 +30,10 @@
     "@pika/plugin-build-node": "^0.7.1",
     "@pika/plugin-ts-standard-pkg": "^0.7.1",
     "@pika/types": "^0.7.1",
-    "prettier": "^1.19.0",
+    "@types/jest": "^24.0.22",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.1.0",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-security": "^1.16.0",

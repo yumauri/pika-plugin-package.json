@@ -9,13 +9,13 @@
 ## Install
 
 ```bash
-$ yarn add pika-plugin-package.json
+$ yarn add --dev pika-plugin-package.json
 ```
 
 Or using `npm`
 
 ```bash
-$ npm install --save pika-plugin-package.json
+$ npm install --save-dev pika-plugin-package.json
 ```
 
 ## Usage
@@ -79,3 +79,7 @@ You can specify special value `^` to any property, and value will be populated f
 will add `author` field with value from original package.json (if defined).
 
 This should work on any deep level, but only with object properties (no arrays).
+
+## Real world example
+
+You can check this package's [package.json](./package.json), I use `pika-plugin-package.json` in pipeline to modify `pika-plugin-package.json`'s package.json ^\_^

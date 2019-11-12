@@ -3,6 +3,8 @@
 [![Build Status](https://github.com/yumauri/pika-plugin-package.json/workflows/build/badge.svg)](https://github.com/yumauri/pika-plugin-package.json/actions?workflow=build)
 [![Coverage Status](https://coveralls.io/repos/github/yumauri/pika-plugin-package.json/badge.svg)](https://coveralls.io/github/yumauri/pika-plugin-package.json)
 [![License](https://img.shields.io/github/license/yumauri/pika-plugin-package.json.svg?color=yellow)](./LICENSE)
+[![NPM](https://img.shields.io/npm/v/pika-plugin-package.json.svg)](https://www.npmjs.com/package/pika-plugin-package.json)
+![Made with Love](https://img.shields.io/badge/made%20with-❤-red.svg)
 
 [@pika/pack](https://github.com/pikapkg/pack) build plugin to modify package.json file.
 
@@ -83,3 +85,7 @@ This should work on any deep level, but only with object properties (no arrays).
 ## Real world example
 
 You can check this package's [package.json](./package.json), I use `pika-plugin-package.json` in pipeline to modify `pika-plugin-package.json`'s package.json ^\_^
+
+## Sponsored
+
+[<img src="https://setplex.com/img/logo.png" alt="Setplex" width="236">](https://setplex.com)

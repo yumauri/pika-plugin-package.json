@@ -13,8 +13,8 @@
     "build": "rm -rf pkg && npm run build --prefix ../ && pika build"
   },
   "dependencies": {
-    "lodash": "^4.17.19",
-    "underscore": "^1.10.2"
+    "lodash": "^4.17.20",
+    "underscore": "^1.11.0"
   },
   "devDependencies": {
     "@pika/pack": "^0.5.0",

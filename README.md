@@ -1,3 +1,7 @@
+# THIS PROJECT IS UNMAINTAINED AND DEPRECATED
+
+@pika/pack project is unmaintained and archived, last release was 4 years ago. Even while there is an [issue](https://github.com/FredKSchott/pika-pack/issues/83) about author looking for help witn maintenance, it was created 3 years ago itself, and still has no answers. So, I think, it would be safe to say, that, sadly, but @pika/pack is dead. So this project is too.
+
 # pika-plugin-package.json
 
 [![Build Status](https://github.com/yumauri/pika-plugin-package.json/workflows/build/badge.svg)](https://github.com/yumauri/pika-plugin-package.json/actions?workflow=build)
